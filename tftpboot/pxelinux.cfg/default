@@ -1,0 +1,12 @@
+DISPLAY README.TXT
+TIMEOUT 50
+TOTALTIMEOUT 9000
+ONTIMEOUT core
+DEFAULT core
+
+LABEL memtest
+	KERNEL memtest
+
+LABEL core
+	KERNEL vmlinuz-3.8.0-34-generic
+	INITRD initrd.img-3.8.0-34-generic
